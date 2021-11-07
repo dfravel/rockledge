@@ -1,12 +1,20 @@
-<script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <div class="flex h-screen">
+    <div class="m-auto">
+      <div class="px-20 py-10 shadow-2xl rounded-md bg-pickled-bluewood-100 text-center">
+        <img alt="Rockledge Financial Group logo" src="./assets/logo_web_5.png" />
+
+        <div class="mt-10 text-white text-center text-2xl">49 Putnam Blvd #1010<br />Glastonbury, CT 06033</div>
+        <div class="mt-4">
+          <a href="mailto:admin@rockledgefinancial.com" class="text-white hover:text-gray-50 text-xl"
+            >admin@rockledgefinancial.com</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style>
@@ -14,8 +22,7 @@ import HelloWorld from './components/HelloWorld.vue'
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+  background-color: #2c3e50;
 }
 </style>
