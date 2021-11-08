@@ -3,7 +3,7 @@
 <template>
   <div class="flex h-screen font-sans">
     <div class="m-auto">
-      <div class="rounded-md bg-black p-20 text-center">
+      <div class="rounded-md bg-black p-2 sm:p-20 text-center">
         <h2 class="text-3xl text-white uppercase mb-8 font-light">Coming Soon</h2>
         <img class="text-center mx-auto" alt="Rock Ledge Financial Group logo" src="./assets/logo_web_5.png" />
 
