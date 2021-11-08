@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Montserrat", "Sans-serif"]
+      },
       colors: {
         link: "#2d72e7",
 

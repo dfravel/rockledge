@@ -4,7 +4,7 @@ defineProps<{ msg: string }>();
 
 <template>
   <h1>{{ msg }}</h1>
-  <div class="mx-auto">49 Putnam Blvd #1010 Glastonbury, CT 06033</div>
+  <div class="mx-auto"></div>
 </template>
 
 <style scoped>
